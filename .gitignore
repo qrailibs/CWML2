@@ -1,0 +1,9 @@
+# Ignore npm modules, cache
+/node_modules
+/.cache
+
+# Ignore testings
+/dist/*
+# Dont ignore dist
+!/dist/cwml2.js
+!/dist/cwml2.js.map

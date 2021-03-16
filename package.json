@@ -1,0 +1,23 @@
+{
+  "name": "cwml2",
+  "version": "1.0.0",
+  "description": "library that allows you to declare own HTML tags and attributes, with reactivity",
+  "main": "cwml2.js",
+  "scripts": {
+    "serve": "parcel ./src/sandbox/index.html --open -p 8080",
+    "build": "parcel build ./src/lib/cwml2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrai/CWML2.git"
+  },
+  "author": "qrai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qrai/CWML2/issues"
+  },
+  "homepage": "https://github.com/qrai/CWML2#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
