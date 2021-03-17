@@ -13,7 +13,7 @@ function load() {
 export const cwml = {
     // Custom tags...
     declaredTags: {},
-    tag: function($tag, $attrs={}, $events={}, $style={}, $content=``) {
+    tag: function($tag, $attrs = {}, $events = {}, $style = {}, $content=``) {
         load()
         
         if($tag == undefined || $tag.trim() == '')
@@ -128,7 +128,7 @@ export const cwml = {
 
     // Custom attributes...
     declaredAttrs: {},
-    attr: function($query, $attr, $callback=function(el,newVal){}) {
+    attr: function($query, $attr, $callback = function(el,newVal){}) {
         var targets = document.querySelectorAll($query);
 
         //every target on page
